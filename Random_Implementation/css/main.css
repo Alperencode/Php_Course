@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.container, .carousel, .card-deck, .row{
+	max-width: 1400px;
+	margin: auto;
+}
+.carousel{
+	margin-top: 20px;
+}
