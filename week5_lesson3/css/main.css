@@ -1,0 +1,28 @@
+@charset "utf-8";
+.cerceve{
+	margin-left: auto;
+	margin-right: auto;	
+	width: 1000px;
+}
+.baslik{
+	width: 1000px;
+	height: 100px;
+	background-color:#0D6B99;
+	margin-bottom: 20px;
+}
+.icerik{
+	width: 1000px;
+	height: 400px;
+	background-color: red;
+}
+.kutu{
+	width: 200px;
+	height: 400px;
+	background-color: darkgray;
+	margin-top: 20px;
+	margin-right: 66.6px;
+	float: left;
+}
+.kutu:last-of-type{
+	margin-right:0px;
+}
