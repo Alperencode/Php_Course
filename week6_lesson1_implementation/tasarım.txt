@@ -1,0 +1,17 @@
+- header, nav, section geniþliði: 1000px
+- footer: 100% geniþlikte
+- tüm alanlarýn özelliði: border-box
+- tüm kenarlýklar: 5px #333
+- butonlarýn sað ya da sol kenarlýðý: 5px #333
+- alanlar arasý dýþ boþluklar 5px
+- section'lardaki iç boþluklar 10px
+- ana ve iç alanlarýn arka plan renkleri: serbest
+- renkler ayný olsun isterseniz: 
+header: #CC0033
+buton: #4CAF50
+section mavi: #0033CC
+section kýrmýzý: #CC0033
+section mor: #6600FF
+section sarý: #99FF00
+section pembe: #CC00FF
+footer: #333

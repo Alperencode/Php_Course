@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+}
+.cerceve{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #CC0033;
+	border: 5px #333 solid;
+	box-sizing: border-box;
+}
+nav{
+	width: 1000px;
+	height: 40px;
+	border: 5px #333 solid;
+	box-sizing: border-box;
+	margin-top: 5px;
+	display: flex;
+	display: none;
+}
+
+.buton{
+	background-color: #4CAF50;
+	flex:1;
+	text-align: center;
+	color:  #fff;
+	line-height: 30px;
+	border-bottom: #333 solid 5px;
+	cursor: pointer;
+	margin-bottom:auto;
+}
+.buton:last-of-type{
+	border-right: none;
+}
+.buton:hover{
+	background-color: yellow;
+}
+section{
+	width: 100%;
+	border: 5px #333 solid;
+	box-sizing: border-box;
+	margin-top: 5px;
+	padding-top:10px;
+}
+.panel1, .panel2{
+	height: auto;
+}
+.panel3{
+	height: 350px;
+}
+.a{
+	width: 90%;
+	height: 270px;
+	background-color: #0033CC;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.b, .c{
+	width: 90%;
+	height: 270px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.b1, .c1, .b2, .c2{
+	width: 100%;
+	height: 130px;
+	background-color: #CC0033;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.b2, .c2{
+	background-color: #6600FF;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+	margin-top: 5px;
+}
+.mobil-menu {
+  background: #111111;
+  left: -250px;
+  height: 100%;
+  position: fixed;
+  width: 250px;
+  top:0;
+  overflow-y: auto;
+  z-index: 3;
+}
+
+.ac-kapa{
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: relative;
+  background-color: white;
+  background-image:url("images/menu.png");
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}
+
+ 

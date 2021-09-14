@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mobil Menü 2</title>
+<style type="text/css">
+.mobil-menu {
+  background: #111111;
+  left: -250px;
+  height: 100%;
+  position: fixed;
+  width: 250px;
+  top:0;
+  overflow-y: auto;
+  z-index: 3;
+}
+
+.ac-kapa{
+  background-color:white;
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: relative;
+  background-color:#333;
+  background-image:url(images/menu2.png);
+  cursor: pointer;
+  z-index: 2;
+}
+</style>
+</head>
+
+<body>
+	<div class="mobil-menu">
+		<div style="background-color: white; border-bottom: 1px solid #FFF">
+	 		Butonlar buraya gelecek!
+		</div>
+	</div>
+	<i class="ac-kapa fa fa-bars"></i>
+	
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	
+<script type="text/javascript">
+var acikmi = 1;
+$(".ac-kapa").click(function(){
+  if ( acikmi == 1 ) {
+    $('.mobil-menu').animate({left: '0px'}, 200);
+    $('.ac-kapa').animate({left: '250px'}, 200);
+    acikmi = 2;
+  } else {
+    $('.mobil-menu').animate({left: '-250px'},200);
+    $('.ac-kapa').animate({left: '0px'}, 200);
+    acikmi = 1;
+  }
+});
+</script>
+</body>
+</html>
