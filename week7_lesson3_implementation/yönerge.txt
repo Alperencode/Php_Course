@@ -1,0 +1,6 @@
+1. h7d3u adýnda bir veritabaný oluþturunuz
+2. veritabanýna beltek-user kullanýcý adý ve 123456 þifresiyle eriþim saðlayacabilecek bir kullanýcý ekleyiniz
+2. veritabanýna bilgiler adýnda bir tablo oluþturunuz
+3. bilgiler tablosunda index.php'den gelecek tüm form verilerini kaydedebilecek uygun alanlar oluþturunuz
+4. kontrol.php'de verileri bilgiler tablosuna kaydedecek php-mysql kodlarýný yazýnýz
+5. formdan gelen verileri güvenlik süzgecinden geçirerek kaydediniz
